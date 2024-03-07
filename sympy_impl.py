@@ -43,4 +43,4 @@ def mat_exp(M):
             for i in range(k):
                 res_mat += current_powers[i] / factorial(i)
             return res_mat
-    return exp(M) # Just use default exponentiation if nothing else
+    return exp(M) # Just use default exponentiation otherwise
